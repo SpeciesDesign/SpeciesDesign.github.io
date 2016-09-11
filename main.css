@@ -6,6 +6,14 @@ body {
     background-color: #E3E9EE;
 }
 
+h1, h2, #cfh {
+    color: #0D416E;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .logo {
     display: block;
     margin-left: auto;
@@ -13,6 +21,12 @@ body {
     height: 150px;
     top: 50px;
     border: 1px solid #0D416E;
+    border-radius: 2px;
+    box-shadow: 5px 5px 1px darkgray;
+}
+
+#no-border {
+    border: 0px;
 }
 
 .col-md-4 {
@@ -23,9 +37,11 @@ body {
     margin: 20px;
     padding: 10px;
     border: 1px solid #0D416E;
+    border-radius: 2px;
+    box-shadow: 5px 5px 1px darkgray;
 }
 
-div h2 {
+.blurb h2 {
     color: #0D416E;
     text-align: center;
     display: block;
@@ -47,6 +63,10 @@ div a {
     margin-right: auto;
 }
 
+#inquiry {
+    background-color: #E3E9EE;
+}
+
 .footer {
     position: fixed;
     left: 0;
@@ -57,4 +77,5 @@ div a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: #E3E9EE;
 }
